@@ -1,0 +1,49 @@
+.oso{
+    position: absolute;
+}
+
+body{
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+#main{
+    position: absolute;
+    left: 0vw;
+    top: 0vh;
+    width: 140vw;
+    height: 3000vh;
+    background: url(graphics/settings/grass.png);
+    background-repeat: repeat repeat;
+}
+
+#main::-webkit-scrollbar{
+    display: none;
+}
+
+.no-move{
+    border-right: solid 20px;
+}
+
+#lightbox img{
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lightbox{
+    display: none;
+    position: absolute;
+    top: 20vh;
+    left: 25vw;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 10px;
+    background: white;
+    border: none;
+    z-index: 2000;
+    padding: 5vw
+}
